@@ -34,14 +34,17 @@ DEFAULT_LOGOUT_URL = '/'
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    'django.contrib.admin',#important Django stuff should go first as it need to be load up first
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'wiki',
-    'accounts'
+
+    'rest_framework',#third party apps go second
+
+    'wiki',#my apps
+    'accounts',
 ]
 
 MIDDLEWARE = [
