@@ -25,7 +25,8 @@ SECRET_KEY = '1yct-t!2bnkgc7j59z+9cdd2k)@y+ftqor$!aya()3if^cnlo-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'uniqueprojectname.herokuapp.com']
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'makewiki-starter.herokuapp.com','127.0.0.1']
 
 #logout url
 DEFAULT_LOGOUT_URL = '/'
@@ -153,4 +154,4 @@ try:
 except ImportError:
     pass
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
