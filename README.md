@@ -1,4 +1,4 @@
-# 📓 Personal Wiki
+# 📓 [Personal Wiki Heroku Link](https://makewiki-starter.herokuapp.com/)
 
 View the [lesson plan] that accompanies this activity.
 
